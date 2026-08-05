@@ -19,12 +19,6 @@ export function Footer() {
           <p className="font-heading text-lg font-semibold text-ink-primary">
             {SITE.name}
           </p>
-          <a
-            href={`mailto:${SITE.email}`}
-            className="font-body text-sm text-ink-secondary hover:text-brand-primary"
-          >
-            {SITE.email}
-          </a>
         </div>
 
         <nav

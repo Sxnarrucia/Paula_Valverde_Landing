@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { SITE } from "@/lib/constants";
 
 function PlayIcon() {
@@ -60,14 +59,6 @@ export function VideoIntro() {
                 </span>
               </button>
             )}
-          </div>
-
-          <div className="mt-5 flex justify-center">
-            <WhatsAppButton
-              variant="compact"
-              label="Quiero hablar por WhatsApp"
-              className="!px-5 !py-3"
-            />
           </div>
         </Reveal>
       </Container>

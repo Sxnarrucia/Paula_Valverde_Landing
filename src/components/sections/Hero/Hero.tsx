@@ -21,8 +21,7 @@ export function Hero() {
 
           <p className="mt-6 max-w-lg font-body text-lg text-ink-secondary sm:text-xl">
             {/* TODO: reemplazar con la frase de impacto real de Paula */}
-            Acompaño a personas como vos a dar el siguiente paso, con
-            claridad y sin vueltas.
+            Acompaño a personas en su transformación personal y financiera, a través de distintas habilidades digitales.
           </p>
 
           <div className="mt-9">

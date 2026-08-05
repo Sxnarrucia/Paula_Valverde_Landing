@@ -76,7 +76,7 @@ export function Testimonials() {
       <Container className="max-w-5xl">
         <Reveal>
           <h2 className="text-center font-heading text-3xl font-semibold text-ink-primary sm:text-4xl">
-            Lo que dicen de trabajar conmigo
+            Resultados de mi comunidad
           </h2>
         </Reveal>
 
@@ -144,7 +144,7 @@ export function Testimonials() {
                   Testimonios reales
                 </span>
                 <h3 className="mt-3 max-w-md font-heading text-2xl font-semibold text-ink-primary sm:text-3xl">
-                  Un vistazo claro a lo que dicen después de trabajar conmigo.
+                  Conoce historias como la tuya de personas que ya están sacando provecho al internet.
                 </h3>
               </div>
 

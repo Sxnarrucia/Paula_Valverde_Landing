@@ -3,7 +3,8 @@ export const SITE = {
   name: "Paula Valverde",
   whatsapp: {
     number: "50671256188",
-    defaultMessage: "Hola Paula, vi tu página y me gustaría conversar",
+    defaultMessage:
+      "Hola Paula, un gusto!!\n\nVi tu página y me gustaría una asesoría personalizada contigo.",
   },
   email: "hola@paulavalverde.com",
   social: {
