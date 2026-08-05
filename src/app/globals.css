@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-ink-primary font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-heading;
+  }
+
+  /* Foco visible y consistente para navegación por teclado —
+     no lo removemos nunca, solo lo restyleamos con el color de marca. */
+  :focus-visible {
+    outline: 2px solid theme("colors.brand.primary");
+    outline-offset: 3px;
+  }
+
+  /* Respeta a quienes desactivan animaciones en su sistema operativo */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
