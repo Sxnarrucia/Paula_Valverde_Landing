@@ -163,7 +163,7 @@ export function Faq() {
           <div className="mt-5 flex justify-center">
             <WhatsAppButton
               variant="compact"
-              label="Quiero hablar por WhatsApp"
+              label="Agenda asesoria personalizada."
               className="!px-5 !py-3"
             />
           </div>
